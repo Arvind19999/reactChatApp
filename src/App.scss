@@ -1,0 +1,28 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;0,900;1,100;1,500;1,900&display=swap');
+
+ * {
+     margin: 0px;
+     padding: 0px;
+     font-size: 1.3rem;
+     font-family: "Roboto", sans-serif;
+     &::-webkit-scrollbar{
+        display: none;
+     }
+ }
+
+.chakra-stack{
+    font-size: .5rem;
+    padding: 5px;
+}
+
+.chakra-text{
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.chakra-avatar{
+    height: 20px !important;
+    width: 20px !important;
+    margin: 5px;
+}
